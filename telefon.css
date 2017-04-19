@@ -1,0 +1,48 @@
+/*Mobil*/
+
+@media only screen and (max-width: 479px) and (orientation: portrait)
+{
+	body {
+		background-color: red;
+	}
+
+	p {
+		font-family: Helvetica, Arial;
+	}
+}
+
+@media only screen and (max-width: 480px) and (orientation: landscape)
+	{
+		body {
+			background-color: green;
+			}
+
+	p {
+		font-family: Helvetica, Arial;
+		}
+}
+/*Escrptori*/
+
+@media only screen and (min-width: 479px) and (orientation: portrait)
+
+{
+	body {
+		background-color: yellow;
+	}
+
+	p {
+		font-family: courier, monospace;
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape)
+	{
+		body {
+			background-color: cyan;
+			}
+
+	p {
+		font-family: Times, georgia;
+		}
+	}	
+		
